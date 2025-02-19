@@ -1,11 +1,28 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body{
-    background: linear-gradient(#85fbff, #06ffc1);
+    background: linear-gradient(#640303d2, #00ffaaa2);
     background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
+    color: antiquewhite;
+}
+
+header{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    background-color: rgb(0, 136, 255);
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
 }
